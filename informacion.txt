@@ -1,0 +1,7 @@
+ejecutamos pip install fastapi o fastapi[all]
+
+para levantar el servidor de fastapi en local, como node o nodemon
+
+uvicorn main:app --reaload
+
+el --reaload es algo parecido a nodemon
