@@ -12,4 +12,8 @@ async def root():
 async def root():  
     return "estoy saludando"
 
+@app.get("/url")
+async def root():
+    return {"url_curso": "https://youtube.com"}
+
 
