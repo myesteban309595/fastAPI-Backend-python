@@ -1,7 +1,10 @@
 ejecutamos pip install fastapi o fastapi[all]
 
 para levantar el servidor de fastapi en local, como node o nodemon
-
 uvicorn main:app --reload
-
 el --reload es algo parecido a nodemon
+
+SWAGGER  si vamos a la url del servidor y escribimos /docs se nos abre la app en SWAGGER
+rambien podemos usar /redoc para probar y visualizar la documentacion
+
+

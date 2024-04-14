@@ -13,7 +13,10 @@ async def root():
     return "estoy saludando"
 
 @app.get("/url")
-async def root():
+async def url():
     return {"url_curso": "https://youtube.com"}
 
-
+@app.route('/cat', methods=['GET'])
+def recommend_categories():
+        res = recommendation.combine_results(request.args.get('title'))
+        return jsonify(res)
